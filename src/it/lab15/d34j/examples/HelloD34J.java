@@ -9,9 +9,10 @@ public class HelloD34J extends D34JApplication {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		//simple test
 		ApplicationLauncher.runSketch(HelloD34J.class.getName());
 	}
-
+ 
 	public void setup() {
 		size(800, 600);
 		background(0);
